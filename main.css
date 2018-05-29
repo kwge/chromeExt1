@@ -1,0 +1,13 @@
+.p {
+  border: 1px solid lightgray;
+  background: #eee;
+  height: 3em;
+  color: blue;
+  /* line-height: 3em; */
+  vertical-align: middle;
+  display: table;
+}
+.p:before {
+  content: '';
+  display:table;
+}
